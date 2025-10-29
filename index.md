@@ -66,7 +66,7 @@ resource "newrelic_nrql_alert_condition" "response_time_alert" {
   violation_time_limit_seconds = 3600
 
   nrql {
-    query = "SELECT average(apm.service.transaction.duration) * 1000 AS 'Response time (ms)' FROM Metric WHERE entity.guid = ${data.newrelic_entity.my_app.guid}"
+    query = "SELECT average(apm.service.transaction.duration) * 1000 AS 'Response time (ms)' FROM Metric WHERE entity.guid = '${data.newrelic_entity.my_app.guid}'"
   }
 
   critical {
