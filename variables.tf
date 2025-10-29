@@ -12,13 +12,3 @@ variable "api_key" {
 variable "region" {
   default = "US"
 }
-
-# hostname reporting to New Relic 
-variable "hostname" {
-  default = "nru-aqm-lab"
-}
-
-# your email address to send notification 
-variable "email" {
-  default = "username@example.com"
-}

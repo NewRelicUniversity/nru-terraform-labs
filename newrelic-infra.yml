@@ -1,7 +1,0 @@
-license_key: YOUR_LICENSE_KEY
-override_hostname_short: nru-aqm-lab
-log:
-  file: '/var/log/newrelic-infra/newrelic-infra.log'
-  level: error
-  forward: true
-  stdout: false

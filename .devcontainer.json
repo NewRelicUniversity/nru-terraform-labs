@@ -3,8 +3,6 @@
     "customizations": {
       "codespaces": {
         "openFiles": [
-          "README.md",
-          "newrelic-infra.yml",
           "variables.tf"
         ]
       }
