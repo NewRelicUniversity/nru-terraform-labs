@@ -90,3 +90,17 @@ Go back to your New Relic account and confirm that the new alert policy and cond
 ## Additional resources
 - [Getting started with New Relic and Terraform](https://docs.newrelic.com/docs/more-integrations/terraform/terraform-intro/)
 - [New Relic Terraform provider documentation](https://registry.terraform.io/providers/newrelic/newrelic/latest/docs)
+
+---
+
+# TODO: Using Terraform to create dashboards
+
+- [Creating dashboards with Terraform and JSON templates ](https://newrelic.com/blog/how-to-relic/create-nr-dashboards-with-terraform-part-1)
+- [Dynamically creating New Relic dashboards with Terraform ](https://newrelic.com/blog/how-to-relic/create-nr-dashboards-with-terraform-part-2)
+- [Using Terraform to generate New Relic dashboards from NRQL queries](https://newrelic.com/blog/how-to-relic/create-nr-dashboards-with-terraform-part-3)
+
+---
+
+# TODO: Using Terraform to create Synthetic monitors
+
+[Synthetic monitoring as code](https://newrelic.com/blog/how-to-relic/examples-observability-as-code-part-two#toc-synthetic-monitoring-as-code)
